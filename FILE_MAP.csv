@@ -1,0 +1,109 @@
+﻿original file,file in this repository,note
+機電整合四/IMU架.SLDPRT,cad/parts/imu_mount.SLDPRT,
+機電整合四/hbridge固定架.SLDPRT,cad/parts/hbridge_bracket.SLDPRT,
+機電整合四/hbridge固定架new.SLDPRT,cad/parts/hbridge_bracket_new.SLDPRT,
+機電整合四/上板.SLDPRT,cad/parts/top_plate.SLDPRT,
+機電整合四/側板.SLDPRT,cad/parts/side_plate.SLDPRT,
+機電整合四/刷毛.SLDPRT,cad/parts/brush_bristles.SLDPRT,
+機電整合四/剁倫.SLDPRT,cad/parts/ball_caster.SLDPRT,
+機電整合四/右輪子馬達支架.SLDPRT,cad/parts/right_wheel_motor_bracket.SLDPRT,
+機電整合四/右邊旋轉.SLDPRT,cad/parts/right_side_brush_arm.SLDPRT,
+機電整合四/吸塵器接地板.SLDPRT,cad/parts/suction_inlet_plate.SLDPRT,
+機電整合四/吸塵器接地板new.SLDPRT,cad/parts/suction_inlet_plate_new.SLDPRT,
+機電整合四/吸塵器接地板newnew.SLDPRT,cad/parts/suction_inlet_plate_new2.SLDPRT,
+機電整合四/吸塵器接地板newnewnew.SLDPRT,cad/parts/suction_inlet_plate_new3.SLDPRT,
+機電整合四/吸塵器接地板newnewnewnew.SLDPRT,cad/parts/suction_inlet_plate_new4.SLDPRT,
+機電整合四/吸塵器頭new.SLDPRT,cad/parts/fan_impeller_new.SLDPRT,
+機電整合四/吸塵器頭old.SLDPRT,cad/parts/fan_impeller_old.SLDPRT,
+機電整合四/小螢幕架.SLDPRT,cad/parts/display_mount.SLDPRT,
+機電整合四/左輪子馬達支架.SLDPRT,cad/parts/left_wheel_motor_bracket.SLDPRT,
+機電整合四/左邊旋轉.SLDPRT,cad/parts/left_side_brush_arm.SLDPRT,
+機電整合四/底板new.SLDPRT,cad/parts/base_plate_new.SLDPRT,
+機電整合四/底板old.SLDPRT,cad/parts/base_plate_old.SLDPRT,
+機電整合四/抽風馬達支架.SLDPRT,cad/parts/suction_motor_bracket.SLDPRT,
+機電整合四/掃地桿.SLDPRT,cad/parts/brush_hub.SLDPRT,
+機電整合四/掃地桿new.SLDPRT,cad/parts/brush_hub_new.SLDPRT,
+機電整合四/支撐棒.SLDPRT,cad/parts/standoff_rod.SLDPRT,
+機電整合四/新剁倫.SLDPRT,cad/parts/ball_caster_v2.SLDPRT,"flat 4-hole plate, not a caster (literal name: 新剁倫 = ""new ball caster"")"
+機電整合四/新濾網.SLDPRT,cad/parts/filter_v2.SLDPRT,
+機電整合四/濾網.SLDPRT,cad/parts/filter.SLDPRT,
+機電整合四/濾網new.SLDPRT,cad/parts/filter_new.SLDPRT,
+機電整合四/爪子滑桿.SLDPRT,cad/parts/claw_slide_rod.SLDPRT,
+機電整合四/爪子連接棒.SLDPRT,cad/parts/claw_link_bar.SLDPRT,
+機電整合四/紙片掉落路徑.SLDPRT,cad/parts/debris_chute.SLDPRT,
+機電整合四/紙片掉落路徑new.SLDPRT,cad/parts/debris_chute_new.SLDPRT,
+機電整合四/組合件1.SLDASM,cad/assemblies/assembly1.SLDASM,
+機電整合四/行動電源架.SLDPRT,cad/parts/power_bank_mount.SLDPRT,
+機電整合四/超音波架.SLDPRT,cad/parts/ultrasonic_sensor_mount.SLDPRT,
+機電整合四/車車.SLDASM,cad/assemblies/robot_car.SLDASM,
+機電整合四/車車new.SLDASM,cad/assemblies/robot_car_new.SLDASM,
+機電整合四/輪子.SLDPRT,cad/parts/wheel.SLDPRT,
+機電整合四/輪子組.SLDASM,cad/assemblies/wheel_assembly.SLDASM,
+機電整合四/電池盒.SLDPRT,cad/parts/battery_box.SLDPRT,
+機電整合四/風扇馬達.SLDPRT,cad/parts/fan_motor.SLDPRT,
+機電整合四/風扇馬達固定架.SLDPRT,cad/parts/fan_motor_bracket.SLDPRT,
+機電整合四/風走道.SLDPRT,cad/parts/air_duct.SLDPRT,
+機電整合四/風走道new.SLDPRT,cad/parts/air_duct_new.SLDPRT,
+機電整合四/馬達.SLDPRT,cad/parts/gear_motor.SLDPRT,
+機電整合四/齒輪箱架子(右).SLDPRT,cad/parts/gearbox_bracket_right.SLDPRT,
+機電整合四/齒輪箱架子(左).SLDPRT,cad/parts/gearbox_bracket_left.SLDPRT,
+機電整合四/stl/IMU架.STL,stl/imu_mount.STL,
+機電整合四/stl/hbridge固定架.STL,stl/hbridge_bracket.STL,
+機電整合四/stl/hbridge固定架new.STL,stl/hbridge_bracket_new.STL,
+機電整合四/stl/側板.SLDPRT,stl/side_plate.SLDPRT,
+機電整合四/stl/側板.STL,stl/side_plate.STL,
+機電整合四/stl/右輪子馬達支架.STL,stl/right_wheel_motor_bracket.STL,
+機電整合四/stl/右邊旋轉.STL,stl/right_side_brush_arm.STL,
+機電整合四/stl/吸塵器接地板new.STL,stl/suction_inlet_plate_new.STL,
+機電整合四/stl/吸塵器接地板newnew.STL,stl/suction_inlet_plate_new2.STL,
+機電整合四/stl/吸塵器接地板newnewnew.STL,stl/suction_inlet_plate_new3.STL,
+機電整合四/stl/吸塵器接地板newnewnewnew.STL,stl/suction_inlet_plate_new4.STL,
+機電整合四/stl/吸塵器頭.STL,stl/fan_impeller.STL,
+機電整合四/stl/吸塵器頭new.STL,stl/fan_impeller_new.STL,
+機電整合四/stl/吸塵器頭newnew.STL,stl/fan_impeller_new2.STL,
+機電整合四/stl/小螢幕架.STL,stl/display_mount.STL,
+機電整合四/stl/左輪子馬達支架.STL,stl/left_wheel_motor_bracket.STL,
+機電整合四/stl/左邊旋轉.STL,stl/left_side_brush_arm.STL,
+機電整合四/stl/抽風馬達支架.STL,stl/suction_motor_bracket.STL,
+機電整合四/stl/掃地桿new.STL,stl/brush_hub_new.STL,
+機電整合四/stl/新濾網.STL,stl/filter_v2.STL,
+機電整合四/stl/濾網.STL,stl/filter.STL,
+機電整合四/stl/濾網new.STL,stl/filter_new.STL,
+機電整合四/stl/爪子連接棒.STL,stl/claw_link_bar.STL,
+機電整合四/stl/紙片掉落路徑.STL,stl/debris_chute.STL,
+機電整合四/stl/紙片掉落路徑new.STL,stl/debris_chute_new.STL,
+機電整合四/stl/行動電源架.STL,stl/power_bank_mount.STL,
+機電整合四/stl/超音波架.STL,stl/ultrasonic_sensor_mount.STL,
+機電整合四/stl/輪子馬達支架.STL,stl/wheel_motor_bracket.STL,
+機電整合四/stl/風扇馬達固定架.STL,stl/fan_motor_bracket.STL,
+機電整合四/stl/風走道.STL,stl/air_duct.STL,
+機電整合四/stl/風走道new.STL,stl/air_duct_new.STL,
+機電整合四/stl/齒輪箱架子(右).STL,stl/gearbox_bracket_right.STL,
+機電整合四/stl/齒輪箱架子(左).STL,stl/gearbox_bracket_left.STL,
+機電整合四/dxf/上板.DXF,dxf/top_plate.DXF,
+機電整合四/dxf/上板.SLDPRT,dxf/top_plate.SLDPRT,
+機電整合四/dxf/上板.STL,dxf/top_plate.STL,
+機電整合四/dxf/底板new.DXF,dxf/base_plate_new.DXF,
+機電整合四/Rpi4/行動店員.SLDPRT,cad/parts/power_bank_model.SLDPRT,"own envelope model (行動店員 = typo of 行動電源, power bank)"
+機電整合四/code/sermo.py,code/servo_test.py,
+機電整合四/code/servo.ipynb,code/servo_test.ipynb,
+cad/上板.SLDPRT (first upload),archive/v1_2023-10/cad/top_plate.SLDPRT,October 2023 snapshot
+cad/刷毛.SLDPRT (first upload),archive/v1_2023-10/cad/brush_bristles.SLDPRT,October 2023 snapshot
+cad/剁倫.SLDPRT (first upload),archive/v1_2023-10/cad/ball_caster.SLDPRT,October 2023 snapshot
+cad/右邊旋轉.SLDPRT (first upload),archive/v1_2023-10/cad/right_side_brush_arm.SLDPRT,October 2023 snapshot
+cad/吸塵器接地板.SLDPRT (first upload),archive/v1_2023-10/cad/suction_inlet_plate.SLDPRT,October 2023 snapshot
+cad/吸塵器頭.SLDPRT (first upload),archive/v1_2023-10/cad/fan_impeller.SLDPRT,October 2023 snapshot
+cad/左邊旋轉.SLDPRT (first upload),archive/v1_2023-10/cad/left_side_brush_arm.SLDPRT,October 2023 snapshot
+cad/底板.SLDPRT (first upload),archive/v1_2023-10/cad/base_plate.SLDPRT,October 2023 snapshot
+cad/掃地桿.SLDPRT (first upload),archive/v1_2023-10/cad/brush_hub.SLDPRT,October 2023 snapshot
+cad/支撐棒.SLDPRT (first upload),archive/v1_2023-10/cad/standoff_rod.SLDPRT,October 2023 snapshot
+cad/爪子連接棒.SLDPRT (first upload),archive/v1_2023-10/cad/claw_link_bar.SLDPRT,October 2023 snapshot
+cad/車車.SLDASM (first upload),archive/v1_2023-10/cad/robot_car.SLDASM,October 2023 snapshot
+cad/輪子.SLDPRT (first upload),archive/v1_2023-10/cad/wheel.SLDPRT,October 2023 snapshot
+cad/輪子組.SLDASM (first upload),archive/v1_2023-10/cad/wheel_assembly.SLDASM,October 2023 snapshot
+cad/電池盒.SLDPRT (first upload),archive/v1_2023-10/cad/battery_box.SLDPRT,October 2023 snapshot
+cad/風扇馬達.SLDPRT (first upload),archive/v1_2023-10/cad/fan_motor.SLDPRT,October 2023 snapshot
+cad/風扇馬達固定架.SLDPRT (first upload),archive/v1_2023-10/cad/fan_motor_bracket.SLDPRT,October 2023 snapshot
+cad/風走道.SLDPRT (first upload),archive/v1_2023-10/cad/air_duct.SLDPRT,October 2023 snapshot
+cad/馬達.SLDPRT (first upload),archive/v1_2023-10/cad/gear_motor.SLDPRT,October 2023 snapshot
+stl/impeller_吸塵器頭.stl (first upload),archive/v1_2023-10/stl/fan_impeller.stl,October 2023 snapshot

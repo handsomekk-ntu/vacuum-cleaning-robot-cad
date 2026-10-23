@@ -1,48 +1,54 @@
 # Remote-Control Vacuum Cleaning Robot (CAD)
 
-SolidWorks design of a teleoperated vacuum-cleaning robot, built as the project for the *Mechatronics* course at National Taiwan University (Sep 2023 - Feb 2024). I was the project leader and modeled the whole robot around the vacuum module.
+This is the SolidWorks design of a teleoperated vacuum-cleaning robot. It was the project for the *Mechatronics* course at National Taiwan University (Sep 2023 - Feb 2024). I was the project leader and modeled the whole robot around the vacuum module.
 
-![Full assembly](images/full_assembly.png)
+![Final version, labeled](images/final_labeled.png)
 
-## The robot
+![Final version, rotating](images/final_animation.gif)
 
-- Two stacked round plates carry a drive module on each side, a ball caster, the fan and air duct of the vacuum module, and the battery.
-- Two side-brush arms driven by SG90 servos.
-- Electronics: Raspberry Pi 4 (ROS2 publisher-subscriber nodes for teleoperation), Arduino UNO with an L298N H-bridge for the drive motors, SG90 servos for the side brushes, an HC-SR04 ultrasonic sensor and a Logitech C270 camera.
+The full animation is `video/robot_car_new_animation.mp4`. More renders are in `images/render_*.jpg`.
 
-### CFD-driven nozzle iteration
+## Two versions
 
-I iterated the suction-nozzle geometry in SolidWorks Flow Simulation. The final design raised **suction power by 23%** and the **effective cleaning area by 52%**. (The Flow Simulation project files are not included in this repository.)
+| | First version (Oct 2023) | Final version (Jan 2024) |
+|---|---|---|
+| Frame | Two stacked round plates on standoffs | Round base plate with vertical side plates |
+| Vacuum path | Inlet ring → air duct → fan | Suction inlet plate → debris chute → filter → fan impeller and housing → air duct |
+| Drive | Wheel modules on motor brackets | Gear-motor drive with left / right gearbox brackets |
+| Sensors and electronics | HC-SR04, Logitech C270, Raspberry Pi 4, Arduino UNO + L298N | Adds an IMU, a small display, front ultrasonic sensor mounts, a power-bank mount and an H-bridge bracket |
 
-## Parts I designed
+![First version](images/render_01.jpg)
 
-![Parts gallery](images/parts_gallery.png)
+## CFD-driven nozzle iteration
 
-| File (`cad/`) | Part |
+I iterated the suction-nozzle geometry in SolidWorks Flow Simulation. The final design raised **suction power by 23%** and the **effective cleaning area by 52%**. The Flow Simulation project files are not included here. The successive suction inlet plates (`suction_inlet_plate` to `_new4`) and fan impellers are all in `cad/parts/` and `stl/`.
+
+## Parts I designed (final version)
+
+![Parts gallery](images/parts_gallery_final.png)
+
+| Folder | Contents |
 |---|---|
-| `車車.SLDASM` | Top-level assembly |
-| `底板.SLDPRT` / `上板.SLDPRT` | Base plate / top plate |
-| `支撐棒.SLDPRT` | Standoff rod between the plates |
-| `風走道.SLDPRT` | Air duct (elbow) |
-| `吸塵器頭.SLDPRT` | Fan impeller |
-| `吸塵器接地板.SLDPRT` | Suction inlet ring |
-| `風扇馬達.SLDPRT` / `風扇馬達固定架.SLDPRT` | Fan motor model / fan-motor bracket |
-| `右邊旋轉.SLDPRT` / `左邊旋轉.SLDPRT` | Right / left side-brush arm |
-| `掃地桿.SLDPRT` / `刷毛.SLDPRT` | Brush hub / brush strip |
-| `爪子連接棒.SLDPRT` | Link bar |
-| `輪子組.SLDASM`, `輪子.SLDPRT`, `馬達.SLDPRT` | Wheel module: wheel and gear-motor model |
-| `剁倫.SLDPRT` | Ball caster |
-| `電池盒.SLDPRT` | Battery box (space envelope) |
+| `cad/assemblies/` | `robot_car_new.SLDASM` (final), `robot_car.SLDASM` (earlier), `wheel_assembly.SLDASM`, `assembly1.SLDASM` |
+| `cad/parts/` | 45 parts, including every design iteration (`_old`, `_new`, `_new2`, `_v2`, ...) |
+| `stl/` | 3D-printing exports of the printed parts |
+| `dxf/` | Laser-cutting files for the top and base plates |
+| `archive/v1_2023-10/` | The October 2023 snapshot that this repository first published |
+| `code/` | My Arduino servo test (pyFirmata) |
+| `FILE_MAP.csv` | Original Chinese file name → English name for every file |
 
-`stl/impeller_吸塵器頭.stl` is the fan impeller exported for 3D printing (about 38 x 34 x 10 mm). GitHub shows STL files in an interactive 3D viewer -- click the file to rotate it.
+### Opening the assemblies
 
-![Impeller STL](images/impeller_stl.png)
+The files were renamed from Chinese to English after the project. SolidWorks stores part references by file name, so when you open an assembly here it will report missing parts. Point each missing reference to the English file listed in `FILE_MAP.csv`.
+
+`ball_caster_v2.SLDPRT` (originally 新剁倫) is a flat four-hole plate, not a caster.
 
 ## Not included
 
-Third-party component models used in the assembly were downloaded from online CAD libraries and are not redistributed here: Raspberry Pi 4 Model B, Arduino UNO, L298N H-bridge, SG90 servo, HC-SR04 ultrasonic sensor and Logitech C270 (with its mount). When you open `車車.SLDASM` these show as missing references; download the same models from GrabCAD or the vendor to complete the assembly.
+- **Third-party component models** (Raspberry Pi 4, Arduino UNO, L298N, SG90, HC-SR04, Logitech C270) came from online CAD libraries and are not redistributed here. You can download them from GrabCAD or the vendors.
+- **The robot software** (ROS2 nodes in Docker, a Flutter phone app for teleoperation) lived in a teammate's repositories and is not part of this repo.
 
 ## Credits
 
-- CAD models and CFD iteration: Kai-Chun Chang (project leader, Mechatronics course team project).
-- This README and the part previews (extracted from the SolidWorks files) were prepared in October 2026 with help from an AI assistant (Claude); the CAD files are the unchanged October 2023 originals.
+- CAD models, 3D-print and laser-cut files, and CFD iteration: Kai-Chun Chang (project leader, Mechatronics course team project).
+- The English file names, this README, the labeled image, the GIF and the part previews were prepared in October 2026 with help from an AI assistant (Claude). The CAD files themselves are the 2023-2024 originals, renamed only.
