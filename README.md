@@ -45,7 +45,7 @@ The files were renamed from Chinese to English after the project. SolidWorks sto
 ## Not included
 
 - **Third-party component models** (Raspberry Pi 4, Arduino UNO, L298N, SG90, HC-SR04, Logitech C270) came from online CAD libraries and are not redistributed here. You can download them from GrabCAD or the vendors.
-- **The robot software** (ROS2 nodes in Docker, a Flutter phone app for teleoperation) lived in a teammate's repositories and is not part of this repo.
+- **The robot software** (teleoperation and the phone app) was written by teammates and is not part of this repo.
 
 ## Credits
 
