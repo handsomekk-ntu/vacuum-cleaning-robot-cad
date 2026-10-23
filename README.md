@@ -17,7 +17,6 @@ The full animation is `video/robot_car_new_animation.mp4`. More renders are in `
 | Drive | Wheel modules on motor brackets | Gear-motor drive with left / right gearbox brackets |
 | Sensors and electronics | HC-SR04, Logitech C270, Raspberry Pi 4, Arduino UNO + L298N | Adds an IMU, a small display, front ultrasonic sensor mounts, a power-bank mount and an H-bridge bracket |
 
-![First version](images/render_01.jpg)
 
 ## CFD-driven nozzle iteration
 
